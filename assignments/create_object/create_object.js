@@ -1,6 +1,5 @@
 function CreateObject(arr) {
-    // Write your code here
-
+   
     let n=arr.length;
     const obj=new Object();
     for(let i=0;i<n;i+=2)
