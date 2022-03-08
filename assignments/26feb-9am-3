@@ -1,0 +1,16 @@
+let arr = [1,2,3,4,5]  
+let arr2 = arr;    
+arr.push(6);   
+arr.pop();
+arr.shift();
+arr.unshift(1,2,3,4);
+// let slicedPart = arr.slice(0,2);
+// arr.splice(2,4);
+//console.log(arr);
+// console.log(slicedPart);
+// for loops on arrays
+
+// map, reduce, filter
+
+console.log('2'*'3');
+

@@ -1,0 +1,61 @@
+// 'this' keyword in javascript
+
+// this refers to the context of function invocation
+
+//function invocation
+//alert('Hello');
+
+//method invocation
+//console.log("Hello world!");
+
+// constructor invocation
+// new Array([])
+// new RegExp()
+
+// indirect invocation
+// call, apply, bind
+//alert.call(undefined, 'Hello');
+
+
+//Invocation of a function is executing the code that calls the function
+
+//context of an invocation is the value of 'this' within the function body
+
+//scope of a function is the set of variables and functions accessible within a function body
+
+
+//Function invocation//
+
+//this is the global object in a function invocation
+
+function greet() {
+     console.log(this); // window
+}
+
+greet();
+//console.log(this);
+
+function sum(a,b) {
+     this.a = 100; //window.a
+     return a+b;
+}
+//console.log("value of a outside the function is ", a);
+//sum(10,20);
+
+const nums = {
+     a: 20,
+     b: 30,
+     sum: function(){
+          console.log("value of a inside the method", this.a);
+          console.log("this inside sum ", this);
+
+          function calculate() {
+               console.log("this inside calculate ", this);
+          }
+
+          return calculate();
+          
+     }
+};
+
+nums.sum();

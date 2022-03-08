@@ -1,0 +1,73 @@
+
+Lecture 1 - Introduction to JS
+Where JS fits in the stack. 
+Difference of JS on Frontend side and Backend Side.
+Why is it required on the Frontend ?
+Hello World in JS
+Where to put JS in the webpage?
+Some examples.
+
+
+Lecture 2 - Fundamentals
+Data Types
+Variables
+Conditionals (If/else, switch statements)
+Three Dialogs in JS (Alert, Prompt, Confirmation).
+Loops 
+Functions
+Some Examples.
+
+Lecture 3 - Fundamentals Contd.
+Arrays
+String
+Objects
+setTimeout
+setInterval
+Some Examples.
+	
+
+
+Lecture 4 - Fundamentals Contd.
+Document Object
+Events
+Event Bubbling and Event Capturing.
+Local Storage
+Some Examples.
+
+Lecture 5 - Scope
+Scope
+Undefined vs Undeclared
+Function Expressions
+IIFE
+Block Scoping with let
+
+
+Lecture 6 - Hoisting, Closure, this
+Hositing
+Closure
+Some Examples
+
+
+Lecture 7 - Functions as Constructors
+This
+New Keyword
+Some Examples
+
+
+Lecture 7 - Special List Operations
+ForEach
+Map
+Reduce
+Filter
+Some examples
+
+Lecture 9 - Async Introduction
+Callbacks
+Problems with Callbacks
+Promises
+
+
+Lecture 10 - Async Application
+Fetch API
+An example of making an AJAX request
+Updating a small portion of the UI without reload.

@@ -1,0 +1,38 @@
+// function foo() {
+//     let counter = 0;
+//     ///////
+// }
+
+// function bar() {
+//     let counter = 0;
+// }
+
+let powerBill = 0;  
+
+//bedroom(block scope)
+//global (village)  ->  apartment(function) -> flat(function) -> bedroom(block scope)
+
+//global (village)  ->  house(function) -> bedroom(block scope)
+
+
+function apartment() {
+    let powerBill = 50;
+    //console.log(internetbill);
+    
+    function flat101() {
+        let powerBill = 10;
+        let internetbill = 5;
+        console.log(powerBill);
+        {
+            // bedroom
+            //let powerBill = 1;
+        }
+    }
+    flat101();
+    function flat102() {
+        let powerBill = 10;
+        let internetbill = 15;
+    }
+}
+
+apartment()

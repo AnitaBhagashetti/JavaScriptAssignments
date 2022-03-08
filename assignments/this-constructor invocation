@@ -1,0 +1,29 @@
+// CONSTRUCTOR INVOCATION
+
+// constructor INVOCATION is performed when NEW keyword is followed by an expression that evaluates to a function object.
+
+// THIS IS THE NEWLY CREATED OBJECT IN A CONSTRUCTOR INVOCATION
+
+class City {
+    constructor(name, visited) {
+        this.name =  name;
+        this.visited = false;
+    }
+
+    visit() {
+        this.visited = true;
+        console.log(this)  // newly created object
+    }
+}
+
+const ooty = new City('ooty', false); //constructor invocation
+ooty.visit();
+
+
+function greet() {
+    console.log(this);
+}
+
+const message1 = new greet();
+
+const message2 =  greet();

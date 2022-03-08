@@ -1,0 +1,5 @@
+//alert("Hi there!");
+let num = prompt("Please provide a number to double",10);
+alert("Double of "+num + " is "+ num*2);
+let confrimValue = confirm("Do you want to proceed?");
+alert(confrimValue);

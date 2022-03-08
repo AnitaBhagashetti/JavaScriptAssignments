@@ -1,0 +1,7 @@
+let a;
+
+function test() {
+    console.log("the value of a in test function is::::::",a);
+}
+
+test();
