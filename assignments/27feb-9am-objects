@@ -1,0 +1,35 @@
+let a;
+a = 100;
+a = 300;
+// const c = 200;
+// c = 250;
+
+const obj = {
+    0: 'zero',
+    1: 'console',
+    name: 'nikita',
+    place: 'india',
+    age: 21,
+    address: {
+        street: '100',
+        city: 'delhi',
+    },
+    getName: function(){
+        console.log("name is ",this.name);
+    }
+};
+//obj.name = 'bhavana';
+//obj.getName();
+
+// for(let i = 0; i < Object.keys(obj).length; i++) {
+//     console.log(i);
+// }
+
+for(i in obj){
+    console.log(i)
+    console.log(obj)
+}
+// obj.name
+// obj['name']
+obj[0]
+

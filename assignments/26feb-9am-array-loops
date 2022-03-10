@@ -1,0 +1,51 @@
+let arr = ['c','a','r'];
+
+//loop1 using for
+for(let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+}
+
+//shorthand for
+for(index in arr) {
+    console.log(index);
+}
+
+//shorthand for
+for(item of arr) {
+    console.log(item);
+}
+
+
+//foreach
+arr.forEach((item, index) => {
+    console.log(index, item);
+})
+
+let i = 0;
+while(i < arr.length){
+    console.log("value from while loop "+arr[i]);
+    i++;
+}
+let numbsArr = [1,2,3,4,5];
+
+//map
+let doubleArr = numbsArr.map((item) => item*2);
+console.log(doubleArr);
+
+//let numbsArr = [1,2,3,4,5];
+
+//filter
+// let filteredArr = numbsArr.filter((item) => item%2===0);
+// console.log(filteredArr);
+let sum = 0; // accumulating- accumulator
+for(item of numbsArr) {
+    sum += item;
+}
+console.log(sum);
+
+reduce
+let result = numbsArr.reduce(function(sum,item){ 
+    return sum + item;
+});
+
+let result2 = numbsArr.reduce((sum,item) => sum + item);

@@ -1,0 +1,36 @@
+// types of functions
+
+//named function
+//function expression
+//anonymous function
+//IIFE Immediately invoked functon expression
+
+function test(value) {
+    console.log("the value passed to this function is ", value);
+}
+test(10);
+
+let funcExpr = function(value) {
+    console.log("The function expression is given ", value);
+}
+funcExpr(20);
+
+let arrowFunc = value => console.log("The value passed to arrow function is ", value);
+arrowFunc(100);
+
+let doubleVal = value => value * 2;
+
+doubleVal(150);
+
+(function(val){
+    console.log("this is anonymous with val ",val);
+})(500)
+
+function divideby2recursive(value){
+    if(value <= 0) {
+        console.log(value);
+        return;
+    }
+    divideby2recursive(value/2);
+}
+divideby2recursive(100);
