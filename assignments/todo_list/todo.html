@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
     <head>
         <title>Todo List</title>
     </head>
@@ -10,4 +10,76 @@
         </div>
     </body>
     <script src='./script.js'></script>
+</html> -->
+<html>
+
+<head>
+    <title>Todo List</title>
+    <style>
+        table {
+            text-align: center;
+            margin-left: 30%;
+            margin-right: 30%;
+
+        }
+
+        th,
+        td {
+            border: 1px solid;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        #comp,
+        #pend,
+        #all {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        #buttons {
+            /* text-align: center; */
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="buttons">
+        <button id="all">All</button>
+        <button id="comp">Completed</button>
+        <button id="pend">Pending</button>
+    </div>
+
+    <div class='todos'>
+        <table>
+            <thead>
+                <tr>
+                    <th>userId</th>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>completed</th>
+                </tr>
+
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+
+
+   
+</body>
+<script src='./script.js'></script>
+
 </html>

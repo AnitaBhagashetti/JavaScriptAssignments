@@ -1,0 +1,29 @@
+//settiemout
+//setinterval
+//cleartimeout
+//clearinterval
+
+//callback
+
+
+function test(a) {
+    console.log("value is", a );
+}
+
+test(3);
+
+function triple() {
+    console.log("triple called");
+}
+
+function demo(callback) {
+    //call to server
+    let data = //data from server vial api call
+    if(data)
+    {
+        callback();
+    }
+    
+}
+
+demo(triple);
